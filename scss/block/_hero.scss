@@ -36,6 +36,14 @@ line-height: 21px;
 color: #FFFFFF;
 padding: 15px 48px;
 }
+.hero__button:hover{
+    color: #333333;
+    background: #FFBD54;
+border-radius: 3px;
+}
+.hero__button:active{
+    background-color: #CBB28A;
+}
 @media only screen and (max-width:1295px) {
     .hero__container{
       flex-direction: column-reverse;

@@ -1,0 +1,111 @@
+.svyaz__container{
+    display: flex;
+    align-items: center;
+    max-width: 1360px;
+}
+.svyaz__map{
+
+    max-width: 462px;
+}
+.svyaz__content{
+    flex-shrink: 0;
+    padding: 62px 450px 74px 151px;
+    max-width: 897px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #333333;
+    background-image: url(../../img/Group\ 61.svg);
+}
+.svyaz__title{
+    font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+color: #FFFFFF;
+margin-bottom: 14px;
+    
+}
+.svyaz__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    margin-bottom: 29px;
+    max-width: 334px;
+}
+.svyaz__name__form{
+    border: transparent;
+    padding: 16px 188px 13px 22px;
+    background: #FFFFFF;
+}
+.svaz__name__form::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #949494;
+    
+}
+.svyaz__name__form:hover{
+    background: #FFFFFF;
+    border: 2px solid #FFBD54;
+    border-radius: 5px;
+}
+.svyaz__email__form{
+    margin-top: 14px;
+    padding: 16px 188px 13px 22px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    border: transparent;
+}
+.svyaz__email__form:hover{
+   
+    background: #FFFFFF;
+    border: 2px solid #FFBD54;
+    border-radius: 5px;
+}
+.svyaz__email__form::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #949494;
+}
+.svyaz__text_area{
+
+    background: #FFFFFF;
+    border-radius: 0px;
+    border: transparent;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.svyaz__text_area::placeholder{
+    font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+color: #949494;
+}
+.svyaz__text_area:hover{
+    background: #FFFFFF;
+    border: 2px solid #FFBD54;
+    border-radius: 5px;
+   border:none;
+}
+.svyaz__button{
+    background: #FFBD54;
+border-radius: 0px;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #FFFFFF;
+border:none;
+padding: 15px 49px 14px 50px;
+}
+@media screen and (max-width:1290px) {
+    .svyaz__container{
+      display: none; 
+    }
+    
+    
+}

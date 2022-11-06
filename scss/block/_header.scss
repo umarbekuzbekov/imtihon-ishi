@@ -26,10 +26,15 @@
     font-size: 14px;
     line-height: 18p;
     color: #333333;
-   
-
 
 }
+.main__header-item:hover{
+   text-decoration: underline 2px #F4FFAD;
+}
+.main__header-item:active{
+    text-decoration: underline 2px #F4FFAD;
+    opacity: 0.6;
+ }
 .item-link::before{
     content: "";
     display: inline-block;
